@@ -4,7 +4,7 @@ import { MessageEmbed } from 'discord.js';
 const Discord = require('discord.js');
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
 
-client.login('Njc4ODEwMjkyNDYwNzE2MDk3.XkoNWQ.qC9MMXLfHvhaJSXEcM4syzsOpHA');
+client.login('REDACTED');
 
 
 client.on('messageDelete', msg => {
